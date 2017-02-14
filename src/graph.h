@@ -42,7 +42,6 @@ public:
     std::vector<Edge*> primsAlgorithm();
     void dijkstrasAlgorithm(Node* n);
 
-    // lagt til av meg
     void printMatrix();
     Node* findUnvisitedNode(Edge* e);
     std::vector<Node*> vertexCover();
